@@ -8,7 +8,7 @@ from .models import CarMake, CarModel
 # CarModelInline class
 class CarModelInline(admin.StackedInline):
     model = CarModel
-    extra = 6
+    extra = 2
 
 # CarModelAdmin class
 class CarModelAdmin(admin.ModelAdmin):
